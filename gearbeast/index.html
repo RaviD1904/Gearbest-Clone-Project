@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #navbar {
+            height: 150px;
+            border: 1px solid red;
+        }
+
+        #catbar {
+            height: 100px;
+            border: 1px solid blue;
+        }
+
+        #timebar {
+            height: 60px;
+            border: 1px solid black;
+        }
+
+        #container {
+            margin: auto;
+            width: 94%;
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+
+        }
+
+        #innbox {
+            border: 1px solid black;
+
+        }
+
+        #title {
+            border: 1px solid black;
+
+            height: 100px;
+            width: 200px;
+
+            white-space: nowrap;
+            overflow: hidden;
+
+            text-overflow: ellipsis;
+
+
+
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/62b5677e42.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="navbar"></div>
+    <div id="catbar"></div>
+    <div id="timebar"></div>
+    <div id="container">
+    </div>
+</body>
+
+</html>
+
+
+<script>
+    superdata = [{
+        img: "https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16455/goods_thumb_220-v1/d429b1e24825.jpg",
+        title: "DOOGEE S97 Pro Global Bands IP68&IPIP69K 8GB 128GB Helio G95 NFC Android 11 8500mAh 6.39 inch 48MP Round Quad Camera Octa Core 4G Smartphone - Black",
+        price: "$269.00",
+        rrp: "$399.00",
+        btmex: "Nimble Tech Store"
+    }, {
+        img: "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16425/goods_thumb_220-v1/cc57251540c7.jpg",
+        title: "Original Xiaomi Mi Pocket Photo Printer Portable 300dpi Picture Printer with DIY Share / Self-adhesive Photo Print Paper - Printer",
+        price: "$62.99",
+        rrp: "$88.34",
+        btmex: "Mi-Fans Store "
+    }, {
+        img: "https://gloimg.gbtcdn.com/soa/gb/item/6878402251153666048/16417/goods_thumb_220-v3/21ff9307e5ee.jpg",
+        title: "Smart Watch Men 400Mah Big Battery Music Play Fitness Tracker Bluetooth Call Sport Smartwatch 2021 Health Monitoring - Black China",
+        price: "$33.99",
+        rrp: "$78.00",
+        btmex: " Sky Store "
+    }, {
+        img: "https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16419/goods_thumb_220-v9/ec57036f640d.jpg",
+        title: "2022 Global Version Xiaomi Mijia 2C Robot Vacuum Cleaner Mop for Home 2700PA Cyclone Suction Wet Mopping Floor Washing Cleaner Planned Path WiFi APP - Germany",
+        price: "$299.00",
+        rrp: "$599.00",
+        btmex: " MYROBOT Store "
+    }, {
+        img: "https://gloimg.gbtcdn.com/soa/gb/store/6507287161137004544/16511/goods_thumb_220-v3/f31a92eb3e39.jpg",
+        title: "Realme Q3t 5G Smartphones 6.6&39&39 144Hz FHD+ Snapdragon 778G Octa Core 8GB 256GB 5000mAh 30W Flash Charge 48MP Android Cellphone - 8GB 256GB Nebula Q3t",
+        price: "$299.36",
+        rrp: "$332.62",
+        btmex: "Asseo Go Store "
+    }]
+
+    displaydata(superdata)
+
+    function displaydata(hkData) {
+        hkData.map(function (elem) {
+
+
+
+            let box = document.createElement("div");
+
+            box.setAttribute("id", "innbox")
+
+            let img = document.createElement("img");
+            img.setAttribute("id", "innimg")
+
+            img.src = elem.img;
+
+
+            let name = document.createElement("p");
+            name.textContent = elem.title;
+            name.setAttribute("id", "title")
+
+            let price = document.createElement("p");
+            price.innerText = elem.price;
+            price.setAttribute("id", "price")
+
+
+            let sPrice = document.createElement("s");
+            sPrice.innerText = `RRP: ${elem.rrp}`
+            sPrice.setAttribute("id", "sprice")
+
+            ////////////////////////////////////////////////
+
+            let ldiv = document.createElement("div");
+            ldiv.setAttribute("id", "ldiv")
+
+            let sticon = document.createElement("i");
+            sticon.setAttribute("class", "fa-solid fa-store")
+
+            let btmex = document.createElement("p");
+            btmex.innerText = elem.btmex;
+            btmex.setAttribute("id", "btmex")
+
+            let cricon = document.createElement("i");
+            cricon.setAttribute("class", "fa-solid fa-cart-shopping")
+
+
+            ///////////////////////////////////////////////
+            ldiv.append(sticon, btmex, cricon)
+
+
+
+
+            box.append(img, name, price, sPrice, ldiv);
+
+            document.querySelector("#container").append(box);
+
+        });
+    }
+</script>
