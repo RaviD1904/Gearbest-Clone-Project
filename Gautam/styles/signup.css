@@ -1,0 +1,93 @@
+#top-nav{
+ margin-top: 30px;
+ margin-left: 20px;
+}
+
+#nav-img{
+    width: 300px;
+}
+
+/* ------------inside container------------------    */
+
+
+
+.signup-form {
+    width: 50%;
+    height: 800px;
+    margin-left: 55%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-left: 4%;
+    margin-top: 40px;
+    padding-right: 4%;
+    margin-bottom: 200px;
+}
+
+#signup-heading {
+    display: flex;
+    gap: 30px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    cursor: pointer;
+}
+
+#signup-heading a {
+    text-decoration: none;
+    color: black;
+}
+
+#signin-h2 a {
+    color: grey;
+}
+
+#signin-h2 a:hover {
+    color: black;
+}
+
+#signup-h2 hr {
+    color: yellow;
+    height: 5px;
+    border-radius: 10px;
+
+
+}
+
+.signup-form input {
+
+    font-size: 18px;
+
+
+    padding: 1%;
+}
+
+.signup-form .btn {
+    width: 450px;
+}
+
+#tip-p {
+    color: #FF9900;
+}
+
+#bottom-p {
+    text-align: center;
+    margin: 30px;
+}
+
+#google-img {
+   
+    text-align: center;
+    cursor: pointer;
+}#captecha{
+    display: flex;
+}
+
+/* --------------------footer section---------------------------- */
+#bottom-footer{
+    text-align: center;
+ }
+ #bottom-img{
+     display: flex;
+     justify-content: center;
+ }
+ #last-p{
+     color: grey;
+ }
