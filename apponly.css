@@ -1,0 +1,58 @@
+body{
+    background-color: whitesmoke;
+}
+#header, #consumer, #cellP, #womenF {
+    overflow: hidden;
+    height: 80px;
+    background-color: white;
+    border: 1px solid gold;
+    padding: 20px 10px;
+    width: 80%;
+    margin:auto;
+
+  }
+  
+  /* Style the header links */
+  #header a, #consumer a, #cellP a, #computer a, #womenF a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+ 
+   #content, #consumer_content, #cellP_content, #computer_content{
+    display: grid;
+    width: 81.5%;
+    grid-template-columns: repeat(5, 5fr);
+    gap: 15px;
+    
+    margin: auto;
+    
+    
+    
+
+}
+#content div, #consumer_content div, #cellP_content div,#computer_content div {
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+img{
+  height: 200px;
+  width: 230px;
+  padding: 7px;
+}
+
+
+ 
+/*consumer page*/
+
