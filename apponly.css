@@ -1,7 +1,7 @@
 body{
     background-color: whitesmoke;
 }
-#header, #consumer, #cellP, #womenF {
+#all, header, #computer, #consumer, #cellP, #womenF, #home, #outdoor, #watches, #drones, #industrial{
     overflow: hidden;
     height: 80px;
     background-color: white;
@@ -13,7 +13,7 @@ body{
   }
   
   /* Style the header links */
-  #header a, #consumer a, #cellP a, #computer a, #womenF a{
+  #all a, header a, #consumer a, #consumer a, #cellP a, #computer a, #womenF a, #home a, #outdoor a, #watches a, #drones a, #industrial a{
     float: left;
     color: black;
     text-align: center;
@@ -25,7 +25,7 @@ body{
   }
   
  
-   #content, #consumer_content, #cellP_content, #computer_content{
+   #content, #consumer_content, #cellP_content, #computer_content, #home_content, #outdoor_content, #drones_content, #industrial_content{
     display: grid;
     width: 81.5%;
     grid-template-columns: repeat(5, 5fr);
@@ -37,7 +37,7 @@ body{
     
 
 }
-#content div, #consumer_content div, #cellP_content div,#computer_content div {
+#content div, #consumer_content div, #cellP_content div,#computer_content div, #home_content div, #outdoor_content div, #drones_content div, #industrial_content div {
   margin-top: 30px;
   justify-content: center;
   align-items: center;
@@ -47,12 +47,11 @@ body{
 }
 
 img{
-  height: 200px;
-  width: 230px;
+  height: 160px;
+  width: 180px;
   padding: 7px;
 }
 
 
  
-/*consumer page*/
 
