@@ -1,0 +1,56 @@
+hr{
+    opacity: .4;
+    margin-top: 20px;
+}
+#logo{
+    margin: 30px 0px 0px 150px;
+}
+
+img {
+    width: 200px;
+    height: 45px;
+}
+
+.payment_card{
+    width: 450px;
+    height: 400px;
+    border: 1px solid white;
+    margin-left:500px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+
+form>div{
+    display: flex;
+    margin: 30px auto;
+}
+form p{
+    width: 100px; 
+    font-weight: bolder;
+    font-size: 15px;
+    margin: auto;
+}
+form>div input{
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    padding-left: 10px;
+}
+form>input{
+    width: 250px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color:#ffda00;
+    border: 1px solid #ffda00;
+    
+    margin-left: 18.75%;
+}
+form>input:hover{
+    cursor: pointer;
+    color: rgb(6, 170, 6);
+   
+}
+
+
