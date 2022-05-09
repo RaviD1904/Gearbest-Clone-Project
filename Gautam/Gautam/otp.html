@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Page</title>
+
+    <link rel="icon" type="image/x-icon" href="https://www.giftcart.com/pub/media/favicon/stores/1/16x16.png">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="https://kit.fontawesome.com/b5da1e4b3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/topnavAndBottomFooter.css">
+    <style>
+    #paypalImg{
+       width: 50%;
+       margin: auto;
+       padding: 2%; 
+    }
+    h1{
+        color: peru;
+    }
+    #otpForm{
+        text-align: center;
+    }
+    #otpForm >input{
+font-size: 30px;
+    }
+    #otpSubmit{
+        padding: 5px 20px 5px 20px;
+        color: white;
+        background-color: rgb(238, 175, 16);
+        cursor: pointer;
+      border-radius: 5px;
+    }
+    #home_btn
+    {
+        border: 1px  red;
+        margin-left: 36.5em;
+        margin-bottom: 8em;
+        padding: 5px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    #home_btn:hover
+    {
+        background-color: rgb(238, 98, 98);
+        transition: 0.8s ease;
+    }
+    </style>
+</head>
+<body>
+    <nav id="top-nav"></nav>
+    <center><img src="https://logodix.com/logo/437153.png" width=40%  alt=""></center>
+    
+    <form action=""id="otpForm" >
+        <h1>Please fill the otp sent on your registered Email-ID</h1>
+        <input type="text" id="otp_num" placeholder="Enter 6-digit OTP">
+           <input type="submit" id="otpSubmit" value="Continue">    
+      </form>
+      <button id="home_btn"><a href="../index.html"><i class="fa-solid fa-house-chimney"></i></a></button> 
+
+      <footer id="bottom-footer"></footer>
+</body>
+
+</html>
+<script src="./scripts/otp.js" type="module"></script>
