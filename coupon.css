@@ -2,9 +2,9 @@
     font-family: OpenSans,Arial,Helvetica,sans-serif;
 }
 #container{
-    margin-top: 150px;
+    margin-top: 10px;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
 }
 #couimg{
