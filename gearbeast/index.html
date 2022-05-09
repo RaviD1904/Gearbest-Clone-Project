@@ -930,12 +930,23 @@
             text-decoration: underline;
         }
 
-        #slideShow {
+        #slideShow:hover {
             width: 1175px;
             height: 400px;
             margin-left: 40px;
             position: absolute;
+            border: 1px solid red;
             display: flex;
+        }
+
+        #slideShow {
+            display: none;
+            /* width: 1175px;
+            height: 400px;
+            margin-left: 40px;
+            position: absolute;
+            border: 1px solid red;
+            display: flex; */
         }
 
         #slideShowDiv {
@@ -2945,15 +2956,8 @@
             "https://uidesign.gbtcdn.com/GB/image/8823/1190X420.jpg?imbypass=true",
         ]
 
-    var f = 0;
+
     let img = document.createElement("img");
     img.style.width = "100%";
-    setInterval(function () {
-        if (f === slideImg.length) {
-            f = 0;
-        }
-        img.src = slideImg[i];
-        document.querySelector("#slideShowDiv").append(img);
-        f++;
-    }, 3000);
+
 </script>
