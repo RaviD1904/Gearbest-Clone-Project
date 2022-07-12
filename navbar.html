@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
     <title>Document</title>
 </head>
 <body>
@@ -108,12 +108,12 @@
                <div id="navHead">
                    <div id="signInDiv">
                     <img id="signInImg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAtFBMVEUAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAADg4OAAAAACAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4OAAAAAAAAAAAAAAAADf398AAAAAAAAAAADR0dEAAABISEipqakmJiYAAAAoKCgAAAAAAAAAAAA1NTXMzMwAAAAAAADf399WVlYAAAAAAACsrKzf398AAAAAAAAAAAAAAADg4ODR0dHe3t4ReYomAAAAOHRSTlMAQPzFDvXsrm47E/C+tKl/9+dnGQXx8NuvioN5VVBKRTQQBvrz7d3Z18u4t7SjlYBfX11NMDAfCv0TF7MAAADjSURBVCjPpZDXcsJADEXX29wbEHoCIT30fg3//1941svA2h5eOE+aOdJIuuRJ9iyB/O/zqhlQKFKrbByAuZy7DNQ1DReIiipCyktD7W3Xz7o74r3AMZSN0M9y/HcSwjYUwzRTvJIemKFC/BRqWZmKIU7FVL6rYahDgo+z2hWhXfq6AXx9nmYrBqwrP+s0qEPKeHFKc/H7VhGLBJq/oWEsCaDTi+O+LYCgeTNjATrXqR4HFB3valrfkONboysR3B0+IneMgOsxgeoywo50JbAx1RBSr0INLaWadaq4f2LVMCGPuACORSZPQ0RWdgAAAABJRU5ErkJggg==" alt="">
-                    <p id="signInP">Sign In</p> 
+                    <p id="signInP"><a href="./login.html"> Sign In</a></p> 
                    </div>
                    <div id="signInHover">
                        <p>Welcome to Gearbest</p>
                        <div id="sIn">
-                           <h4 id="sInH">SignIn</h4>
+                           <h4 id="sInH"><a href="./login.html">SignIn</a> </h4>
                        </div>
                        <div id="connectVia">
                            <p id="connectP">Or connect via</p>
@@ -122,16 +122,17 @@
                        <div id="line"></div>
                        <p id="reg">Register on Gearbest: Earn 10 points</p>
                        <div id="regDiv">
-                           <h4 id="regH">Register</h4>
+                           <h4 id="regH"><a href="./signup.html">Register</a> </h4>
                        </div>
                    </div>
                    <div id="fav">
                        <img id="favHeartImg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAA81BMVEUAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADGxsYTExMAAAAAAADg4OAAAADf39/g4OAAAAAAAAAAAADg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADh4eEAAADi4uIAAADt7e3d3d1iYmLf39+RkZEAAADg4OAAAAArKyvf398QEBCoqKglJSXg4OAXFxfg4OAKCgohISHf39/f398dHR3f398AAADHx8cAAAAAAABSUlIvLy8AAAAAAAD////g4OAAAACSkpLV1dW0tLSHh4dycnJUVFRDQ0NMKKmhAAAASHRSTlMA+vTB+ZAoIAwF/NummWpAM/z89vHw5OHc0Me7mIuHc3BmU0tHPjwiFA37+/r47Ovr5drTz8C0s62to6GIgoB3ZF1WThsZEwOBbnz7AAAA+klEQVQoz73Q1W7DQBRF0WPm2GFsOCkzM7c+5f//msa3ELvtW6Wsh5krbc2MNJg5y9BUakNgqFHVDGta+kUK36coDr7KwGXTRNQmWeo6d1cN6iHEgsquDJdUIhkMbtgytOnjQ6f3OdTZkd3j+L5VjbdGGB2Uq8eLAHpsJMUh7b04cSJrbdJMluQp8iJOawEWVTmlcCeT1oGQdSQ0LscZ8wg4JylHN59NJpVbSY7Ht3Qpo5kcEqbCl1Q6C1ixJciVfPguNYNrqf89nLaVI6oRUvbJZylLu1RCZJy6fH2M4/w29T5+uC6w8LSqszLGLzebnAhs/OXc03P4r3d0M0A98TPbIwAAAABJRU5ErkJggg==" alt="">
-                       <p id="favP">Favourite</p>
+                       <p id="favP"><a href="./wishlist.html">Favourite</a> </p>
                    </div>
                    <div id="cart">
+                      
                        <img id="cartImg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAn1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqJAAUEQD/2QAAAABJPgAAAAAAAAAAAAD/2gD/2gAAAAAAAAD/2gAAAAAAAAAAAAD/2QAAAAAAAAD/2wAAAAAAAAD/2QAAAAD/4wAAAAD/2gD51ADQsQCiigB0YwBGOwCQauaIAAAALnRSTlMA09hV4UL48rFIE/zazLuVfXZJIR39++3r5+fk29TJqKakm46JgG9lW1pNNjISfz/FPQAAALRJREFUKM+dz1cKwzAQRdHn7vRip/feX+r+1xaDLDx2Igi5XyMODCP8mcWkvpkYwVDIg4mabBhkxs9qinx+qZxe0ka+Mn01zNkq0JmWvmJwFU0Ah6GiIzuSekCLa0UReRM0BRrcQRXwLmgB1OmlVOND0AaoMk5pyaegPVCpIG3Ll6ATYtqaPHYFXZJ3mH2+2Aq6ekF8D79UGrklPTu27Qgakq6ex6QlyBVk56kdBNnCqlpo7g1Gxypv685O3AAAAABJRU5ErkJggg==" alt="">
-                       <p id="cartP">Cart</p>
+                       <p id="cartP"><a href="./cart.html"> Cart</a></p>
                        
                    </div>
                    <div id="cartHover">
@@ -150,16 +151,16 @@
         </div>
 
         <div id="coup" class="catDiv">
-            <p class="catP"><a href="./coupon.html"></a></p>
+      <p class="catP"><a href="./coupon.html">COUPON</a>  </p>
         </div>
         <div id="superD" class="catDiv">
-            <P class="catP">SUPER DEALS</P>
+            <P class="catP"><a href="./superDeals.html">SUPER DEALS</a> </P>
         </div>
         <div id="AppOnly" class="catDiv">
-            <p class="catP">APP ONLY</p>
+            <p class="catP"><a href="./apponly.html">APP ONLY</a> </p>
         </div>
         <div id="newA" class="catDiv">
-            <p class="catP">NEW ARRIVAL</p>
+            <p class="catP"><a href="./newArrival.html">NEW ARRIVAL</a> </p>
         </div>
     </div>
     <div id="slideShow">
@@ -171,11 +172,11 @@
                     <div class="left1">
                         <div class="lDiv">
                             <p class="pHead">Smart Electronics</p>
-                            <p class="pList">Smart Watch</p>
-                            <p class="pList">Smart Watch Phone</p>
+                            <p class="pList"><a href="./smartWatches.html">Smart Watch</a> </p>
+                            <p class="pList"><a href="#"></a> Smart Watch Phone</p>
                             <p class="pList">Smart wristband</p>
-                            <p class="pList">Smart Watch Accessories</p>
-                            <p class="pList">Sport Watch</p>
+                            <p class="pList"><a href="./smartWatches.html">Smart Watch Accessiories</a> </p>
+                            <p class="pList"><a href="./sportsWatches.html">Sport Watch</a> </p>
                             <p class="pList">Smart Health Watch</p>
                         </div>
                         <div class="lDiv">
@@ -188,9 +189,9 @@
                             <p class="pList">Headphones Accessories</p>
                         </div>
                         <div class="lDiv">
-                            <p class="pHead">Hot Brands</p>
+                            <p class="pHead"><a href="3">Hot Brands</a> </p>
                             <p class="pList">Kospet</p>
-                            <p class="pList">Lenovo</p>
+                            <p class="pList"><a href="./leveno.html">Lenovo</a> </p>
                             <p class="pList">CORN</p>
                             <p class="pList">KZ</p>
                             <p class="pList">Ticwatch</p>
@@ -304,11 +305,11 @@
                     <div class="left1">
                         <div class="lDiv">
                             <p class="pHead">3D Printer & Suppies</p>
-                            <p class="pList">3D Printer Filament</p>
-                            <p class="pList">3D Scanner</p>
-                            <p class="pList">3D Printer Parts</p>
-                            <p class="pList">3D Printing Pen</p>
-                            <p class="pList">3D PrinterModule Board</p>
+                            <p class="pList"><a href="./asus.html">ASUS</a></p>
+                            <p class="pList"><a href="./xiomi.html">Xiomi</a></p>
+                            <p class="pList"><a href="./oneplus.html">OnePlus</a></p>
+                            <p class="pList"><a href="./leveno.html"></a>Lenevo</p>
+                            <p class="pList"><a href="./6gbRam.html">OPPO</a></p>
                             <p class="pList"></p>
                         </div>
                         <div class="lDiv"><p class="pHead">Laser Engraver & CNC</p>

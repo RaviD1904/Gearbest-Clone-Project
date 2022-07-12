@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<style>
+    #cart_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #removeItem {
+        margin-bottom: 30px;
+        margin-top: 15px;
+        background-color: orange;
+        color: white;
+        font: size 25px;
+        cursor: pointer;
+        padding: 10px;
+        border: none;
+
+    }
+
+    #buyNow {
+        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-left: 50px;
+        background-color: red;
+        color: white;
+        font: size 25px;
+        cursor: pointer;
+        padding: 10px;
+        border: none;
+        width: 100px;
+    }
+
+    /* -------------------table css------------------- */
+
+
+    #table-title {
+        margin-left: 67%;
+        margin-bottom: 40px;
+    }
+
+    table {
+        width: 30%;
+        border-spacing: 30px 0;
+        margin-left: 60%;
+        margin-right: 5%;
+        margin-top: -20px;
+        margin-bottom: 50px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
+
+    table thead th {
+        text-align: center;
+        font-size: larger;
+    }
+
+    td {
+        padding: 10px 0;
+    }
+
+    #placeOrder {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        background-color: red;
+        margin-top: 15px;
+        border: none;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <div id="cart_container"></div>
+
+    <table>
+        <!-- <thead>
+    <th>Product Summary</th>
+      
+    </thead> -->
+        <h1 id="table-title">Product Summary</h1>
+        <tbody>
+
+        </tbody>
+    </table>
+    <div class="footer"></div>
+</body>
+
+</html>
+<script src="./scripts/cart.js" type="module"></script>

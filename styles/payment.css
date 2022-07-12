@@ -1,0 +1,56 @@
+#paymentForm {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 80px;
+    padding-left: 20px;
+    font-size: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+input {
+    width: 90%;
+    font-size: 20px;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+#expdateAndCCV {
+    display: flex;
+    width: 94%;
+}
+
+#generateOTP {
+    margin-bottom: 40px;
+    color: white;
+    background-color: rgb(58, 58, 155);
+    padding: 3%;
+    cursor: pointer;
+    border: none;
+}
+
+#paymentSubmit:hover {
+    background-color: rgba(0, 128, 0, 0.95);
+}
+
+#secureimg>img {
+    width: 500px;
+}
+
+#otp_button {
+    width: 90%;
+    margin-bottom: 40px;
+    color: white;
+    padding: 3%;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 88, 88);
+
+}

@@ -1,0 +1,197 @@
+*{
+    font-family: OpenSans,Arial,Helvetica,sans-serif;
+}
+#container{
+    margin-top: 150px;
+    width: 100%;
+    border: 1px solid red;
+    
+}
+#couimg{
+    width: 1756px;
+    margin-left: -135px;
+    height: 250px;
+    z-index: 0;
+    overflow: visible;
+}
+
+#coucard{
+    
+    margin-top: 15px;
+    z-index: 4;
+    /* border: 1px solid blue; */
+    margin: auto;
+    height: auto;
+    width: 90%;
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+.card1{
+    /* position: absolute; 
+    bottom: 20px;
+    right: 20px; */
+    background-color: white;
+    color: black;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* border: 1px solid gold; */
+    width: 100%;
+    height: 305px;
+    /* -webkit-box-shadow:inset 0px 0px 0px 10px #f00; */
+    /* -moz-box-shadow:inset 0px 0px 0px 10px #f00; */
+    /* box-shadow:inset 0px 0px 0px 10px #f00; */
+    transform: translateY(-50%);
+    margin:22px 1px 50px 1px;
+    /* border: 1px solid red;
+     */
+}
+.card{
+    background-color:#ffda00 ;
+    width: 100%;
+    height: 70px;
+    margin:-21px 175px 163px 0px;
+    /* top: 0px; */
+    line-height:2px;
+}
+
+.h2p{
+    padding-top: 25px;
+}
+
+.getbtn{
+    padding: 12px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffda00;
+    margin-left: 100px;
+    border-radius: 5px;
+
+}
+#headcou{
+    font-size: 28px;
+    margin: -157px 1px 1px 73px;
+
+}
+.cat{
+    position: sticky;
+    top: 0;
+    background-color:white;
+    display: flex;
+    height: 70px;
+    /* border: 1px solid blue; */
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.cat >button{
+    border: none;
+    /* text-decoration: none; */
+    color:#898989;
+    background-color: white;
+    font-size: 18px; 
+    cursor: pointer;
+    
+}
+.cat >button:hover{
+    border-bottom: #ffda00;
+    color: black;
+
+}
+
+#product{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+    margin-top: 55px;
+    /* border: 1px solid chartreuse; */
+    /* position: relative; */
+}
+#product >div{
+    padding: 10px;
+    /* height: 500px; */
+    /* border: 1px solid green; */
+    text-align: justify;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#product >div:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.disc{
+    
+    text-align:center;
+    /* margin-top: 10px; */
+    background-color:#f30240;
+    display: inline-block;
+    /* border: 1px solid #f30240; */
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    line-height: 25px;
+    /* margin: 1px 1px 1px 170px; */
+    /* overflow: visible; */
+    /* z-index: 2; */
+    position: relative;
+  top: -5px;
+  right: -165px; 
+    /* shape-outside: polygon(); */
+
+}
+.gimg{
+    margin-top: -99px;
+}
+
+.title{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width:150px;
+    /* min-height: 10px; */
+    /* max-height:100px; */
+
+}
+
+
+#product >div>div>div{
+    margin-top: -25px;
+    display: flex;
+    margin-left: 20px;
+}
+#product >div>div{
+    width: 108%;
+    /* margin-top: -5px; */
+    /* height: 10px; */
+    margin-left: -10px;
+    /* border: 1px solid red; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #ffda00;
+}
+.copy{
+    width: 40px;
+    height: 35px;
+    margin-top: 22px;
+    background-color: black;
+    color: white;
+}
+.bdash{
+    border: 1px dashed black;
+    padding: 15px 10px;
+
+}
+.left{
+    top: 0;
+    width: 80%;
+    height: 70px;
+    /* padding: auto; */
+    /* margin-top: 50px; */
+    /* padding: 10px; */
+    line-height: 2px;
+    
+}
