@@ -1,16 +1,10 @@
+import main_navbar from "../components/main_navbar.js";
+document.querySelector("#headDiv").innerHTML=main_navbar();
 
+import footer from "../components/footer.js";
+document.querySelector(".footer").innerHTML=footer();
 
-// {
-//     gimg:"",
-//     title:"",
-//     price:
-//     mrp:,
-//     left:,
-//     cou_code:"",
-//        disc:""
-// }
-
-data=[
+ const data=[
     {
         gimg:"https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16391/goods_thumb_220-v1/fd70338a262e.jpg",
         title:"Toothpaste Squeezer Tooth Paste Holder Oral Care Bathroom Tools Tube Cosmetics Press Facial Cleanser Rolling Squeezing Dispenser",
