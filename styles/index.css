@@ -1,0 +1,81 @@
+#whole-wrapper-section {
+    width: 94%;
+    margin: auto;
+}
+
+.rec {
+    /* border: 1px solid red; */
+    width: 95%;
+    margin-left: 20px;
+}
+
+/* ------------------------  main-body-sction CSS statrs---------------- */
+.app {
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.app>div {
+    /* border: 1px solid green; */
+    padding: 10px;
+}
+
+.app>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.app>div>img {
+    width: 100%;
+}
+
+.app>div>h2 {
+    color: rgb(247, 102, 102);
+}
+
+/* --------------slider start----------- */
+.main-carousel {
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.abc {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+        rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+#one {
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+#one img {
+    width: 100%;
+}
+
+#two {
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+
+#two>div {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#two img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* --------------slider end----------- */
