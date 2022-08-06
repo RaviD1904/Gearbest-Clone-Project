@@ -1,3 +1,6 @@
+/*---------------------homepage main-carasoel statrts here----------------------  */
+
+
 let slideImg = [
   "https://uidesign.gbtcdn.com/GB/image/8823/1190%C3%97420-En.jpg?imbypass=true",
   "https://uidesign.gbtcdn.com/GB/image/8823/1190X4200.jpg?imbypass=true",
@@ -8,6 +11,7 @@ let slideImg = [
 let i = 0;
 let img = document.createElement("img");
 img.style.width = "100%";
+img.style.height="100%";
 setInterval(function () {
   if (i === slideImg.length) {
     i = 0;
@@ -16,6 +20,13 @@ setInterval(function () {
   document.querySelector("#slideShowDiv").append(img);
   i++;
 }, 3000);
+
+
+/*---------------------homepage main-carasoel Ends ----------------------  */
+
+
+
+/*---------------------homepage Collection starts ----------------------  */
 
 let collection = [
   {
@@ -90,6 +101,13 @@ collection.map(function (el) {
   document.getElementById("deal").append(div);
 });
 
+
+
+/*--------------------- Collection Ends  ----------------------  */
+
+
+/*--------------------- SuperDeals part starts  ----------------------  */
+
 let deals1 = [
   {
     goodsSn: "104921852176841310",
@@ -162,6 +180,12 @@ deals1.map(function (el) {
 
   document.getElementById("deal1").append(div);
 });
+
+/*---------------------superDeals part Ends ----------------------  */
+
+
+
+/*---------------------homepage Recommended section starts ----------------------  */
 
 let data = [
   {
@@ -887,3 +911,5 @@ data.map(function (el) {
 
   document.getElementById("data").append(div);
 });
+
+/*---------------------homepage Recommended section Ends ----------------------  */

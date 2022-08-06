@@ -1,13 +1,16 @@
+
 *
 {
     font-family: OpenSans,Arial,Helvetica,sans-serif;
 }
 #headDiv
 {
+    width: 94%;
+    margin: auto;
     /* border: 1px solid orange; */
     height: 100px;
     display: flex;
-    margin-left: 40px;
+ 
 }
 #logoDiv
 {
@@ -18,7 +21,7 @@
 {
     /* border: 1px solid purple; */
     width: 73%;
-    /* display: flex; */
+   
 }
 #logoImg
 {
@@ -415,9 +418,11 @@ li{
 {
     display: block;
 }
+
+/* ------------------- lower portion category navbar starts------------------------ */
 #navCat
 {
-    width: 93%;
+    width: 94%;
     height: 40px;
     /* border: 1px solid black; */
     margin-left: 40px;
@@ -431,6 +436,8 @@ li{
 }
 #cat
 {
+    /* border: 2px solid green; */
+    width: 20%;
     background-color: black;
     box-sizing: border-box;
     
@@ -441,16 +448,18 @@ li{
     font-size: 14;
     font-weight: 700;
     color: black;
-    /* border: 2px solid; */
     /* padding-bottom: 10px; */
     margin-top: 10px;
     cursor: pointer;
 }
 #cateP
 {
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin: auto;
     margin-top: 10px;
     text-align: center;
-    font-size: 14;
+    font-size: 20px;
     font-weight: 700;
     color: white;
     cursor: default;
@@ -459,47 +468,65 @@ li{
 {
     text-decoration: underline;
 }
+
+
+
+/*-----------------------------navbar ends----------------------------------------- */
+
+
 #slideShow
 {
-    width: 1175px;
+    /* border: 2px solid red;   */
+    width: 94%;
+    margin: auto;
     height: 400px;
-    margin-left: 40px;
-    position: absolute;
+   
     display: flex;
+    justify-content: space-between;
+  
 }
+
+
 #slideShowDiv
 {
-    height: 100%;
-    width: 100%;
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 80%;
    
 }
 #catInfo
 {
-    z-index: 9;
-    width: 235px;
-    height: 104%;
+    /* border: 2px solid blue; */
     
-    background-color: white;
+    width: 20%;
+    height: 400px;
+ 
+    background-color:hsl(180, 100%, 98%);
     box-sizing: border-box;
     padding-left: 10px;
+    /* float: left; */
 }
-.div
-{
-    position: absolute;
-}
+
 #catInfo>p
 {
     line-height: 13px;
     font-size: 15px;
     cursor: pointer;
 }
+#catInfo>p:hover{
+    color: orange;
+}
+
+
+/* ------------------    div that opens on hover------------------------------ */
+
 #CE, #IS, #CPA, #A, #OFS, #CTO, #HPC, #HIT, #DTH, #HG, #MCE,
 #MF, #WJ, #GP
 {
     position: absolute;
-    width: 940px;
-    height: 104%;
-    /* border: 1px solid red; */
+    width: 75%;
+    height: 65%;
+    /* border: 4px solid red; */
     margin-left: 225px;
     background-color: white;
     display: flex;
@@ -511,8 +538,8 @@ li{
 .catHoverLeft
 {
     height: 100%;
-    width: 75%;
-    /* border: 1px solid yellow; */
+    width: 100%;
+    /* border: 1px solid green; */
 }
 .catHoverRight
 {

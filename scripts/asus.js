@@ -5,6 +5,8 @@ document.querySelector("#headDiv").innerHTML=main_navbar();
 import asusData from "../allData/asusData.js";
 
 import footer from "../components/footer.js";
+
+
 document.querySelector(".footer").innerHTML=footer();
 
 const container = document.querySelector(".container");
@@ -32,7 +34,7 @@ function appendData(asusData) {
     p.innerText = el.goodsTitle;
     let div1 = document.createElement("div");
     div1.append(p);
-    div1.style.height = "100px"
+    div1.style.height = "140px"
     div1.style.overflow = "hidden";
     let h2 = document.createElement("h2");
     h2.innerText = `$ ${el.displayPrice}`;
