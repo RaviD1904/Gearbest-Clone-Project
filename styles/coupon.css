@@ -2,17 +2,19 @@
     font-family: OpenSans,Arial,Helvetica,sans-serif;
 }
 #container{
-    margin-top: 150px;
-    width: 100%;
-    border: 1px solid red;
+    /* margin-top: 150px; */
+    width: 94%;
+    margin: auto;
+    /* border: 1px solid red; */
     
 }
 #couimg{
-    width: 1756px;
-    margin-left: -135px;
+    width: 100%;
+    margin: auto;
+    /* margin-left: -135px; */
     height: 250px;
     z-index: 0;
-    overflow: visible;
+    overflow: hidden;
 }
 
 #coucard{
@@ -107,7 +109,7 @@
     width: 90%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 15px;
     margin-top: 55px;
     /* border: 1px solid chartreuse; */
