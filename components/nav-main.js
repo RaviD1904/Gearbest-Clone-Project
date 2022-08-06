@@ -3,9 +3,10 @@ const navMain = () => {
   return (`
   <div id="headDiv">
   <div id="logoDiv">
-      <img id="logoImg"
-          src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true"
-          alt="" />
+  <a href="./index.html">  <img id="logoImg"
+  src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true"
+  alt="" /></a>
+    
   </div>
   <div id="navSearch">
       <div id="topDropdown">

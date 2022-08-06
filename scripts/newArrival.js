@@ -1,11 +1,12 @@
 import newarrivalData from "../allData/newArrivalData.js";
+
 import navMain from "../components/nav-main.js";
 document.querySelector("#nav-main").innerHTML=navMain();
 
 import footer from "../components/footer.js";
 document.querySelector(".footer").innerHTML=footer();
 
-const todayDiv=document.querySelector("#today-div");
+
 
 const container = document.querySelector(".container");
 
