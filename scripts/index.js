@@ -3,6 +3,11 @@
 import navMain from "../components/nav-main.js";
 document.querySelector("#nav-main").innerHTML=navMain();
 
+
+import footer from "../components/footer.js";
+document.querySelector(".footer").innerHTML=footer();
+
+
 let slideImg = [
   "https://uidesign.gbtcdn.com/GB/image/8823/1190%C3%97420-En.jpg?imbypass=true",
   "https://uidesign.gbtcdn.com/GB/image/8823/1190X4200.jpg?imbypass=true",

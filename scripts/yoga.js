@@ -1,4 +1,14 @@
 import yogadata from "../allData/yogaData.js";
+
+
+import navMain from "../components/nav-main.js";
+document.querySelector("#nav-main").innerHTML=navMain();
+
+import footer from "../components/footer.js";
+document.querySelector(".footer").innerHTML=footer();
+
+
+
 import footer from "../components/footer.js";
 document.querySelector(".footer").innerHTML=footer();
 

@@ -1,5 +1,8 @@
+import navMain from "../components/nav-main.js";
+document.querySelector("#nav-main").innerHTML=navMain();
+
 import footer from "../components/footer.js";
-document.querySelector(".footer").innerHTML=footer();
+document.querySelector(".footer").innerHTML = footer();
 
 let cartData=JSON.parse(localStorage.getItem("cart"));
 console.log(cartData);

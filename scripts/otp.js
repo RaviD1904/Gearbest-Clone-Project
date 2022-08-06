@@ -1,4 +1,6 @@
 import {topnav,bottomFooter} from "../components/topnavAndBottomFooter.js";
+
+
 document.querySelector("#top-nav").innerHTML=topnav();
 document.querySelector("#bottom-footer").innerHTML=bottomFooter();
 
