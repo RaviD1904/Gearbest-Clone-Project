@@ -1,4 +1,9 @@
 import oneplusData from "../allData/oneplusData.js";
+
+import navMain from "../components/nav-main.js";
+document.querySelector("#nav-main").innerHTML=navMain();
+
+
 import footer from "../components/footer.js";
 document.querySelector(".footer").innerHTML=footer();
 
@@ -22,7 +27,7 @@ function appendData(oneplusData) {
     p.innerText = el.goodsTitle;
     let div1 = document.createElement("div");
     div1.append(p);
-    div1.style.height = "100px"
+    div1.style.height = "140px"
     div1.style.overflow = "hidden";
     let h2 = document.createElement("h2");
     h2.innerText = `$ ${el.displayPrice}`;

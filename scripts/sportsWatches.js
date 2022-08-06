@@ -1,4 +1,8 @@
 import sportsWatchesData from "../allData/sportsWatchesData.js";
+
+import navMain from "../components/nav-main.js";
+document.querySelector("#nav-main").innerHTML=navMain();
+
 import footer from "../components/footer.js";
 document.querySelector(".footer").innerHTML=footer();
 

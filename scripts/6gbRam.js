@@ -1,6 +1,12 @@
-import sixGB_RAM_Data from "../allData/6gbRamData.js";
+import navMain from "../components/nav-main.js";
+document.querySelector("#nav-main").innerHTML=navMain();
+
 import footer from "../components/footer.js";
 document.querySelector(".footer").innerHTML = footer();
+
+
+import sixGB_RAM_Data from "../allData/6gbRamData.js";
+
 const container = document.querySelector(".container");
 
 appendData(sixGB_RAM_Data);
@@ -21,7 +27,7 @@ function appendData(sixGB_RAM_Data) {
     p.innerText = el.goodsTitle;
     let div1 = document.createElement("div");
     div1.append(p);
-    div1.style.height = "100px";
+    div1.style.height = "140px";
     div1.style.overflow = "hidden";
     let h2 = document.createElement("h2");
     h2.innerText = `$ ${el.displayPrice}`;

@@ -1,10 +1,12 @@
-import main_navbar from "../components/main_navbar.js";
-document.querySelector("#headDiv").innerHTML=main_navbar();
+
+import navMain from "../components/nav-main.js";
+document.querySelector("#nav-main").innerHTML=navMain();
 
 
 import asusData from "../allData/asusData.js";
 
 import footer from "../components/footer.js";
+
 
 
 document.querySelector(".footer").innerHTML=footer();

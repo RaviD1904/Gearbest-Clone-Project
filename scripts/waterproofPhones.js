@@ -1,5 +1,12 @@
 import waterproofPhoneData from "../allData/waterproofPhonesData.js";
 import footer from "../components/footer.js";
+
+import navMain from "../components/nav-main.js";
+document.querySelector("#nav-main").innerHTML=navMain();
+
+import footer from "../components/footer.js";
+document.querySelector(".footer").innerHTML=footer();
+
 document.querySelector(".footer").innerHTML=footer();
 
 const container = document.querySelector(".container");

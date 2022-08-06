@@ -1,6 +1,13 @@
-import earringData from "../allData/earringData.js";
+import navMain from "../components/nav-main.js";
+document.querySelector("#nav-main").innerHTML=navMain();
+
+
 import footer from "../components/footer.js";
 document.querySelector(".footer").innerHTML=footer();
+
+
+import earringData from "../allData/earringData.js";
+
 
 const container = document.querySelector(".container");
 
