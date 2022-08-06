@@ -9,7 +9,9 @@ document.querySelector(".footer").innerHTML=footer();
 
 
 let slideImg = [
+  "https://uidesign.gbtcdn.com/GB/image/6592/en-1190x420.jpg?imbypass=true",
   "https://uidesign.gbtcdn.com/GB/image/8823/1190%C3%97420-En.jpg?imbypass=true",
+  "https://uidesign.gbtcdn.com/GB/image/8823/en_1190x420.jpg?imbypass=true",
   "https://uidesign.gbtcdn.com/GB/image/8823/1190X4200.jpg?imbypass=true",
   "https://uidesign.gbtcdn.com/GB/image/9746/1190X420.jpg",
   "https://uidesign.gbtcdn.com/GB/image/8823/1190X420.jpg?imbypass=true",

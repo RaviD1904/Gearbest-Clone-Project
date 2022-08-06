@@ -1,58 +1,103 @@
-body{
-    background-color: whitesmoke;
-}
-#header, #consumer, #cellP, #womenF {
-    overflow: hidden;
-    height: 80px;
-    background-color: white;
-    border: 1px solid gold;
-    padding: 20px 10px;
-    width: 80%;
-    margin:auto;
+.container {
+  width: 94%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
 
-  }
-  
-  /* Style the header links */
-  #header a, #consumer a, #cellP a, #computer a, #womenF a{
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  
- 
-   #content, #consumer_content, #cellP_content, #computer_content{
-    display: grid;
-    width: 81.5%;
-    grid-template-columns: repeat(5, 5fr);
-    gap: 15px;
-    
+  /* border: 1px solid red; */
+
+}
+
+.container>div {
+  height: 480px;
+  padding: 3%;
+  /* cursor: pointer; */
+
+}
+
+.container>div:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container>div img {
+  width: 100%;
+  cursor: pointer;
+  transition: all 2s linear;
+}
+
+.container>div img:hover {
+  transform: scale(1.2);
+}
+
+.container>div p {
+  color: grey;
+  /* max-height: 50px; */
+  /* border: 2 px solid blue; */
+}
+
+.container>div p:hover {
+  color: #FF9900;
+}
+
+.container>div h2 {
+  color: #F30240;
+
+  /* border: 2 px solid blue;  */
+}
+
+.container>div h3 {
+  font-family: FontAwesome;
+  float: right;
+  cursor: pointer;
+
+  padding-bottom: 10px;
+  padding-right: 10px;
+
+}
+
+.container>div h3:hover {
+  color: #FF9900
+}
+
+
+@media all and (max-width:500px) {
+  .container {
+    width: 100%;
     margin: auto;
-    
-    
-    
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-}
-#content div, #consumer_content div, #cellP_content div,#computer_content div {
-  margin-top: 30px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background-color: white;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  #sidebar {
+    display: none;
+  }
 }
 
-img{
-  height: 200px;
-  width: 230px;
-  padding: 7px;
+;
+
+@media all and (min-width:500px) and (max-width:700px) {
+  .container {
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #sidebar {
+    display: none;
+  }
 }
 
+;
 
- 
-/*consumer page*/
+@media all and (max-width:1000px) and (min-width:701px) {
+  .container {
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
+  #sidebar {
+    width: 25%;
+  }
+}

@@ -34,7 +34,7 @@ function appendData(yogadata) {
     p.innerText = el.goodsTitle;
     let div1 = document.createElement("div");
     div1.append(p);
-    div1.style.height = "100px"
+    div1.style.height = "140px"
     div1.style.overflow = "hidden";
     let h2 = document.createElement("h2");
     h2.innerText = `$ ${el.displayPrice}`;
