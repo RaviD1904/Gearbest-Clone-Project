@@ -1,5 +1,7 @@
 /*---------------------homepage main-carasoel statrts here----------------------  */
 
+import navMain from "../components/nav-main.js";
+document.querySelector("#nav-main").innerHTML=navMain();
 
 let slideImg = [
   "https://uidesign.gbtcdn.com/GB/image/8823/1190%C3%97420-En.jpg?imbypass=true",
@@ -19,7 +21,7 @@ setInterval(function () {
   img.src = slideImg[i];
   document.querySelector("#slideShowDiv").append(img);
   i++;
-}, 3000);
+}, 2000);
 
 
 /*---------------------homepage main-carasoel Ends ----------------------  */
