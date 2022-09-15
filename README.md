@@ -13,7 +13,7 @@
 <h1>Some visuals of our project </h1>
  </hr>
  <h3>Landing page: </h3>
- <img src="![Screenshot (203)](https://user-images.githubusercontent.com/101813593/190477048-8672deb6-6347-400a-9a31-3d42a08ed914.png)
+ <img src="https://user-images.githubusercontent.com/101813593/190477048-8672deb6-6347-400a-9a31-3d42a08ed914.png
 " alt="Landing page"/>
  
 
