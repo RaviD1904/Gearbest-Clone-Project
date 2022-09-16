@@ -15,7 +15,23 @@
  <h3>Landing page: </h3>
  <img src="https://user-images.githubusercontent.com/101813593/190477048-8672deb6-6347-400a-9a31-3d42a08ed914.png" alt="Landing page"/>
  
+  <h3>Product page: </h3>
+ <img src="https://user-images.githubusercontent.com/101813593/190478784-458847a7-add7-466c-a2b7-501cd6e001cc.png" alt="Coupon page"/>
+  <h3>Super Deals page: </h3>
+ <img src="https://user-images.githubusercontent.com/101813593/190477048-8672deb6-6347-400a-9a31-3d42a08ed914.png" alt="Landing page"/>
+  <h3>SignUp page: </h3>
+ <img src="https://user-images.githubusercontent.com/101813593/190477048-8672deb6-6347-400a-9a31-3d42a08ed914.png" alt="Landing page"/>
+  <h3>SignUp page: </h3>
+ <img src="https://user-images.githubusercontent.com/101813593/190477048-8672deb6-6347-400a-9a31-3d42a08ed914.png" alt="Landing page"/>
 
+ <h3>Login page: </h3>
+ <img src="https://user-images.githubusercontent.com/101813593/190477048-8672deb6-6347-400a-9a31-3d42a08ed914.png" alt="Landing page"/>
+
+ <h3>SignUp page: </h3>
+ <img src="https://user-images.githubusercontent.com/101813593/190477048-8672deb6-6347-400a-9a31-3d42a08ed914.png" alt="Landing page"/>
+ 
+  <h3>SignUp page: </h3>
+ <img src="https://user-images.githubusercontent.com/101813593/190477048-8672deb6-6347-400a-9a31-3d42a08ed914.png" alt="Landing page"/>
 <h1>View Deployment</h1>
 </hr>
 <h4>Checkout live website :https://gearbest-website-clone.netlify.app/</h4>
